@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #8EA7E9;
+    color: #fff;
+    font-family: 'Muli',sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    padding: 10px;
+    margin: 0;
+}
+
+h2{
+    margin: 10px 0 20px;
+    text-align: center;
+}
+
+.container{
+    background-color: #698269;
+    box-shadow: 0px 2px 10px rgba(255, 255, 255, 0.2);
+    padding: 20px;
+    width: 350px;
+    max-width: 100%;
+}
+
+.result-container{
+    background-color: #20262E;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    font-size: 18px;
+    letter-spacing: 1px;
+    padding: 12px 10px;
+    height: 50px;
+    width: 100%;
+}
+
+#result::-webkit-scrollbar{
+    width: 1rem;
+}
+
+.result-container .btn{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+}
+
+.btn {
+    background: #bed8e9;
+    background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+    background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+    background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+    background-image: -o-linear-gradient(top, #3498db, #2980b9);
+    background-image: linear-gradient(to bottom, #3498db, #2980b9);
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 6px 29px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #4a7da0;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+  }
